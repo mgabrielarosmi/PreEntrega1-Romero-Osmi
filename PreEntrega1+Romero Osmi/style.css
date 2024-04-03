@@ -1,0 +1,559 @@
+/* 
+elemento {
+    propiedad: valor; 
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+
+.textoHeader {
+
+    background-color: #f6d6d6;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+
+.titulo-linea-1 {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    background-color: #f6d6d6;
+    text-align: center;
+    font-weight: lighter;
+    font-family: "Montserrat";
+    text-shadow: #474747 2px 2px 2px, 2px 2px 5px rgba(206, 89, 55, 0);
+
+
+}
+
+.navegador {
+    width: 100%;
+    display: flex;
+    background-color: #f6d6d6;
+
+}
+
+.navegador-links {
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    background-color: #f6d6d6;
+    font-family: "Montserrat";
+    background-color: #f6d6d6;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+}
+
+.navegador-link {
+
+    padding: 1px;
+
+}
+
+.navegador-link a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+
+
+}
+
+.redes1 {
+    width: 100%;
+    height: auto;
+    background-color: #f6d6d6;
+    text-align: right;
+
+}
+
+.redes {
+    width: 30px;
+    height: auto;
+    background-color: #f6d6d6;
+    padding: 2px;
+    margin: 10px;
+}
+
+
+.logoCentral {
+    width: 100%;
+    border: gray;
+
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+
+}
+
+.navegador-links2 {
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    background-color: #f6d6d6;
+    font-family: "Montserrat";
+    background-color: #f6d6d6;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.imagenfondo {
+    background-image: url(https://m.media-amazon.com/images/I/911AbMaFIoL.jpg);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+
+}
+
+.bajada {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+    background-color: #f6d6d6;
+    padding: 5px;
+
+}
+
+
+
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.imagenes div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.novedadesybebe {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.titulo3 {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+
+.footer {
+
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    font-family: Montserrat;
+    background-color: #f6d6d6;
+    padding: 30px;
+
+
+
+}
+
+.formFooter {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.footerText {
+    font-size: 15px;
+}
+
+
+
+
+.contenidoContactanos {
+    display: block;
+    justify-content: center;
+
+}
+
+
+.tituloContactanos {
+    padding: 20px;
+    color: #c69c6d;
+    font-size: 20px;
+    text-align: center;
+    font-family: Montserrat;
+
+}
+
+.bajada-landings-contactanos {
+    color: #c69c6d;
+    font-size: 18px;
+    font-family: Montserrat;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    padding: 5px;
+    max-width: 100%;
+
+}
+
+.formulario-contactanos {
+    color: #c69c6d;
+    font-size: 17px;
+    font-family: Montserrat;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.formulario-contactanos textarea[name="requerimiento"] {
+    resize: none;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.formulario-contactanos button[type="submit"] {
+    background-color: #b6d6d6;
+    color: #c69c6d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.formulario-contactanos label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+.formulario-contactanos label.terminos {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.formulario-contactanos label.terminos input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+.contenidoNosotros {
+    width: 100%;
+    display: block;
+    justify-content: space-around;
+
+}
+
+.tituloNosotros {
+    padding: 20px;
+    color: #c69c6d;
+    font-size: 20px;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.bajada-landingsNosotros {
+    color: #c69c6d;
+    font-size: 18px;
+    font-family: Montserrat;
+    background-color: white;
+    text-align: center;
+    padding: 2px;
+
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.video {
+    width: 40%;
+    height: 100%;
+}
+
+
+.galeria {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 190px);
+    grid-template-areas: "img4 img1 img1 img2"
+        "img4 img1 img1 img2"
+        "img4 img3 img3 img2"
+        "img4 img3 img3 img2"
+        "img5 img5 img6 img6"
+        "img5 img5 img6 img6";
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.img6 {
+    grid-area: img6;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+.titulo2 {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+
+}
+
+
+.bajada-landings-enviosypedidos {
+
+    font-size: 18px;
+    font-family: Montserrat;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    color: #c69c6d;
+}
+
+.parrafos-envios {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+
+
+@media (max-width: 1024px) {
+    .titulo-linea-1 {
+        font-size: 16px;
+    }
+
+    .titulo2 {
+        font-size: 16px;
+    }
+
+    .titulo3 {
+        font-size: 16px;
+    }
+
+    .tituloContactanos {
+        font-size: 16px;
+    }
+
+    .tituloNosotros {
+        font-size: 16px;
+    }
+
+    .navegador-links {
+        font-size: 15px;
+    }
+
+    .navegador-links2 {
+        font-size: 15px;
+    }
+
+    .bajada {
+        font-size: 14px;
+    }
+
+    .bajada-landingsNosotros {
+        font-size: 14px;
+    }
+
+    .bajada-landings-enviosypedidos {
+        font-size: 14px;
+    }
+
+    .bajada-landings-contactanos {
+        font-size: 14px;
+    }
+
+    .formulario-contactanos {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+    .footerText {
+        font-size: 14px;
+    }
+
+    .galeria {
+        width: 100%;
+        padding: 5px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-linea-1 {
+        font-size: 15px;
+    }
+
+    .titulo2 {
+        font-size: 15px;
+    }
+
+    .titulo3 {
+        font-size: 15px;
+    }
+
+    .tituloContactanos {
+        font-size: 15px;
+    }
+
+    .tituloNosotros {
+        font-size: 15px;
+    }
+
+    .navegador-links {
+        font-size: 14px;
+    }
+
+    .navegador-links2 {
+        font-size: 14px;
+    }
+
+    .bajada {
+        font-size: 13px;
+    }
+
+    .bajada-landingsNosotros {
+        font-size: 13px;
+    }
+
+    .bajada-landings-enviosypedidos {
+        font-size: 13px;
+    }
+
+    .bajada-landings-contactanos {
+        font-size: 13px;
+    }
+
+    .formulario-contactanos {
+        font-size: 13px;
+    }
+
+    .footer {
+        font-size: 13px;
+    }
+
+    .footerText {
+        font-size: 13px;
+    }
+
+    .galeria {
+        width: 100%;
+        padding: 5px;
+        gap: 5px;
+    }
+}
