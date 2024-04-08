@@ -242,10 +242,10 @@ footer {
 
 .formulario-contactanos {
 background-color: #c69c6d;
-width: 350px;
-margin: 20px auto 20px auto;
-padding: 20px;
-border-radius: 5px;
+width: 390px;
+margin: 20px auto 40px auto;
+padding: 25px;
+border-radius: 4px;
 font-family: "Montserrat";
 }
 
@@ -254,7 +254,18 @@ font-family: "Montserrat";
     flex-direction: column;
     gap: 10px;
     margin: 10px 0px;
+    font-size: 18px;
 }
+
+.formulario-contactanos-grupo-mensaje {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0px;
+    height: 80px;
+    font-size: 18px;
+}
+
 .formulario-contactanos-grupo-label {
     color: white;
 
@@ -263,13 +274,18 @@ font-family: "Montserrat";
     background-color: transparent;
     border: 1px solid white;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 4px;
     width: 100%;
+    transition: 0.5s;
 }
 
 .formulario-contactanos-grupo-input::placeholder{
     color: white
-    
+}
+
+.formulario-contactanos-grupo-input:focus{
+   border: 2px solid white;
+   outline: none;
 }
 
 .formulario-contactanos-boton {
@@ -277,8 +293,9 @@ font-family: "Montserrat";
     background-color: white;
     color: #c69c6d;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 10px 5px;
+    font-size: 18px;
 }
 .formulario-contactanos label.terminos {
     display: flex;
