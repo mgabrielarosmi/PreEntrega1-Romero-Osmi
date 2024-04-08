@@ -49,7 +49,7 @@
         <h1 class="tituloContactanos">Contáctanos</h1>
         <p class="bajada-landings-contactanos">
             Si tienes algún requerimiento especial, o algún requerimiento que tenga que ver con
-            productos adquiridos en Ardillitas, por favor contáctanos por alguna de las siguientes
+            productos adquiridos en Ardillitas, <br>por favor contáctanos por alguna de las siguientes
             opciones: <br>
             EMAIL: ardillitasshop@gmail.com
             <br>
@@ -61,28 +61,30 @@
 
 
         <form class="formulario-contactanos">
-            <div>
-                <label for="nombre-apellido">Nombre y apellido</label>
-                <input type="text" name="nombre-apellido" id="" placeholder="Ingrese su nombre y apellido">
+            <div class="formulario-contactanos-grupo">
+                <label class="formulario-contactanos-grupo-label" for="nombre-apellido">Nombre y apellido</label>
+                <input class="formulario-contactanos-grupo-input" type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Ingrese su nombre y apellido">
             </div>
-            <div>
-                <label for="email-usuario">Email</label>
-                <input type="email" name="request" id="" placeholder="ingrese su email">
+            <div class="formulario-contactanos-grupo">
+                <label class="formulario-contactanos-grupo-label" for="email-usuario">Email</label>
+                <input class="formulario-contactanos-grupo-input" type="email" name="email" id="email-usuario" placeholder="ingrese su email">
             </div>
-            <div>
-                <label for="requerimiento">Ingrese su requerimiento</label>
-                <textarea name="requerimiento"></textarea>
+            <div class="formulario-contactanos-grupo">
+                <label class="formulario-contactanos-grupo-label" for="requerimiento">Ingrese su requerimiento</label>
+                <textarea class="formulario-contactanos-grupo-input" name="requerimiento" id="requerimiento"></textarea>
             </div>
-            <div>
-                <button type="submit">Enviar</button>
-            </div>
-            <div>
-                <label class="terminos" for="terminos">
-                    <input type="checkbox" name="terminos">
-                    Acepta términos y condiciones
-                </label>
-            </div>
+            <button type="submit" class="formulario-contactanos-boton">Enviar</button>
+            <label class="terminos" for="terminos">
+                <input type="checkbox" name="terminos">
+                Acepta términos y condiciones
+            </label>
         </form>
+     
+            
+        <div>
+           
+        </div>
+
 
     </main>
     <!-- fin contenido-->
