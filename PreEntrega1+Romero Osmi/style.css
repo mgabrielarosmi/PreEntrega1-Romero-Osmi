@@ -183,59 +183,81 @@ footer {
 
 
 .footer {
-
     color: gray;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     font-family: Montserrat;
     background-color: #f6d6d6;
-    padding: 30px;
-
-
-
+    padding: 25px 10px 5px 10px;
 }
+
 
 .formFooter {
-    padding: 15px;
-    display: flex;
-    justify-content: center;
+    width: 390px;
+    margin: 10px auto 10px auto;
+    padding: 10px 10px 10px 10px;
+    font-family: "Montserrat";
+}
 
+.formFooter-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 16px;
 
 }
+
+
+.formFooter-label {
+    padding: 5px 10px 10px 10px;
+
+  
+}
+
+ .formFooter-input {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 100%;
+    transition: 0.5s;
+ }
+
+
+ .formFooter-input::placeholder {
+   text-align: center;
+ }
+
+
+ .formFooter-input:focus {
+    border: 2px solid white;
+    outline: none;
+  }
 
 .footerText {
     font-size: 15px;
 }
 
-
-
-
 .contenidoContactanos {
     display: block;
     justify-content: center;
-
 }
 
-
 .tituloContactanos {
-    padding: 20px;
+    padding: 30px 20px 10px 20px;
     color: #c69c6d;
     font-size: 20px;
     text-align: center;
     font-family: Montserrat;
-
 }
-
 .bajada-landings-contactanos {
     color: #c69c6d;
     font-size: 18px;
     font-family: Montserrat;
     background-color: white;
-    padding: 20px;
+    padding: 10px 200px 30px 200px;
     text-align: center;
-    padding: 5px;
     max-width: 100%;
-
 }
 
 /* formulario contactanos*/
@@ -244,7 +266,7 @@ footer {
 background-color: #c69c6d;
 width: 390px;
 margin: 20px auto 40px auto;
-padding: 25px;
+padding: 30px;
 border-radius: 4px;
 font-family: "Montserrat";
 }
@@ -421,7 +443,7 @@ font-family: "Montserrat";
     background-color: white;
     padding: 50px;
     text-align: center;
-    padding: 5px;
+    padding: 20px 150px 50px 150px; 
     margin-top: 30px;
     margin-bottom: 30px;
     max-width: 100%;
