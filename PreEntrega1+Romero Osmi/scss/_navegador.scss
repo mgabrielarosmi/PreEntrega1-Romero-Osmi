@@ -1,0 +1,64 @@
+
+.navegador {
+    width: 100%;
+    display: flex;
+    background-color: #f6d6d6;
+  }
+  
+  .navegador-links {
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    background-color: #f6d6d6;
+    font-family: "Montserrat";
+    background-color: #f6d6d6;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+  }
+  
+  .navegador-link {
+    padding: 1px;
+    a {
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: gray;
+      }
+  }
+  
+  .redes1 {
+    width: 100%;
+    height: auto;
+    background-color: #f6d6d6;
+    text-align: right;
+  }
+  
+  .redes {
+    width: 30px;
+    height: auto;
+    background-color: #f6d6d6;
+    padding: 2px;
+    margin: 10px;
+  }
+  
+  .logoCentral {
+    width: 100%;
+    border: gray;
+  }
+  
+  .logo {
+    width: 300px;
+    height: auto;
+  }
+  
+  .navegador-links2 {
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    background-color: #f6d6d6;
+    font-family: "Montserrat";
+    background-color: #f6d6d6;
+    display: flex;
+    justify-content: center;
+  }

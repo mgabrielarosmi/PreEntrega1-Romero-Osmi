@@ -1,0 +1,75 @@
+/* formulario contactanos*/
+.formulario-contactanos {
+    background-color: #c69c6d;
+    width: 390px;
+    margin: 20px auto 40px auto;
+    padding: 30px;
+    border-radius: 4px;
+    font-family: "Montserrat";
+
+    label.terminos {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+      margin-top: 20px;
+      color: white;
+    }
+
+    label.terminos input[type=checkbox] {
+      margin-right: 10px;
+      border-radius: 5px;
+      background-color: transparent;
+      border: 1px solid white;
+    }
+  }
+  
+  .formulario-contactanos-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0px;
+    font-size: 18px;
+  }
+  
+  .formulario-contactanos-grupo-mensaje {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0px;
+    height: 80px;
+    font-size: 18px;
+  }
+  
+  .formulario-contactanos-grupo-label {
+    color: white;
+  }
+  
+  .formulario-contactanos-grupo-input {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    width: 100%;
+    transition: 0.5s;
+    &:focus {
+      border: 2px solid white;
+      outline: none;
+    }
+    &::-moz-placeholder {
+      color: white;
+    }
+    &::placeholder {
+      color: white;
+    }
+  }
+  .formulario-contactanos-boton {
+    width: 100%;
+    background-color: white;
+    color: #c69c6d;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 5px;
+    font-size: 18px;
+  }
+  

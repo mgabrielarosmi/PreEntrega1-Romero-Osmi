@@ -1,0 +1,139 @@
+/* 
+elemento {
+    propiedad: valor; 
+}
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+footer {
+  margin-top: auto;
+}
+@import "./scss/lineaheader";
+@import "./scss/navegador";
+@import "./scss/imagenfondocontexto";
+@import "./scss/imagenesnovedadesycoleccion";
+@import "./scss/footer";
+@import "./scss/contactanos";
+@import "./scss/formulariocontactanos";
+@import "./scss/nosotros";
+.titulo2 {
+  color: gray;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+}
+@import "./scss/enviosypedidos";
+
+
+
+
+
+@media (max-width: 1024px) {
+  .titulo-linea-1 {
+    font-size: 16px;
+  }
+  .titulo2 {
+    font-size: 16px;
+  }
+  .titulo3 {
+    font-size: 16px;
+  }
+  .tituloContactanos {
+    font-size: 16px;
+  }
+  .tituloNosotros {
+    font-size: 16px;
+  }
+  .navegador-links {
+    font-size: 15px;
+  }
+  .navegador-links2 {
+    font-size: 15px;
+  }
+  .bajada {
+    font-size: 14px;
+  }
+  .bajada-landingsNosotros {
+    font-size: 14px;
+  }
+  .bajada-landings-enviosypedidos {
+    font-size: 14px;
+  }
+  .bajada-landings-contactanos {
+    font-size: 14px;
+  }
+  .formulario-contactanos {
+    font-size: 14px;
+  }
+  .footer {
+    font-size: 14px;
+  }
+  .footerText {
+    font-size: 14px;
+  }
+  .galeria {
+    width: 100%;
+    padding: 5px;
+    gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .titulo-linea-1 {
+    font-size: 15px;
+  }
+  .titulo2 {
+    font-size: 15px;
+  }
+  .titulo3 {
+    font-size: 15px;
+  }
+  .tituloContactanos {
+    font-size: 15px;
+  }
+  .tituloNosotros {
+    font-size: 15px;
+  }
+  .navegador-links {
+    font-size: 14px;
+  }
+  .navegador-links2 {
+    font-size: 14px;
+  }
+  .bajada {
+    font-size: 13px;
+  }
+  .bajada-landingsNosotros {
+    font-size: 13px;
+  }
+  .bajada-landings-enviosypedidos {
+    font-size: 13px;
+  }
+  .bajada-landings-contactanos {
+    font-size: 13px;
+  }
+  .formulario-contactanos {
+    font-size: 13px;
+  }
+  .footer {
+    font-size: 13px;
+  }
+  .footerText {
+    font-size: 13px;
+  }
+  .galeria {
+    width: 100%;
+    padding: 5px;
+    gap: 5px;
+  }
+}/*# sourceMappingURL=style.css.map */

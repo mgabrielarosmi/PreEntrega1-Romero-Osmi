@@ -1,0 +1,77 @@
+.contenidoNosotros {
+    width: 100%;
+    display: block;
+    justify-content: space-around;
+  }
+  
+  .tituloNosotros {
+    padding: 20px;
+    color: #c69c6d;
+    font-size: 20px;
+    text-align: center;
+    font-family: Montserrat;
+  }
+  
+  .bajada-landingsNosotros {
+    color: #c69c6d;
+    font-size: 18px;
+    font-family: Montserrat;
+    background-color: white;
+    text-align: center;
+    padding: 2px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .video {
+    width: 40%;
+    height: 100%;
+  }
+  
+  .galeria {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 190px);
+    grid-template-areas: "img4 img1 img1 img2" "img4 img1 img1 img2" "img4 img3 img3 img2" "img4 img3 img3 img2" "img5 img5 img6 img6" "img5 img5 img6 img6";
+    img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }    
+  }
+
+  .img1 {
+    grid-area: img1;
+  }
+  
+  .img2 {
+    grid-area: img2;
+  }
+  
+  .img3 {
+    grid-area: img3;
+  }
+  
+  .img4 {
+    grid-area: img4;
+  }
+  
+  .img5 {
+    grid-area: img5;
+  }
+  
+  .img6 {
+    grid-area: img6;
+  }

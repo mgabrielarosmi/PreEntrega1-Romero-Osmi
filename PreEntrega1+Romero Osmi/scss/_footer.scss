@@ -1,0 +1,47 @@
+ .footer {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    font-family: Montserrat;
+    background-color: #f6d6d6;
+    padding: 25px 10px 5px 10px;
+  }
+  .formFooter {
+    width: 390px;
+    margin: 10px auto 10px auto;
+    padding: 10px 10px 10px 10px;
+    font-family: "Montserrat";
+  }
+  .formFooter-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 16px;
+  }
+  .formFooter-label {
+    padding: 5px 10px 10px 10px;
+  }
+  .formFooter-input {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 100%;
+    transition: 0.5s;
+    &::-moz-placeholder {
+        text-align: center;
+      }
+      &::placeholder {
+        text-align: center;
+      }
+      &:focus {
+        border: 2px solid white;
+        outline: none;
+      }
+  }
+  .footerText {
+    font-size: 15px;
+  }
+  
+  
+  
