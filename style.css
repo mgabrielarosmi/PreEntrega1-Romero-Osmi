@@ -439,6 +439,7 @@ footer {
   }
   .bajada-landings-contactanos {
     font-size: 14px;
+    padding: 18px;
   }
   .formulario-contactanos {
     font-size: 14px;
@@ -453,6 +454,10 @@ footer {
     width: 100%;
     padding: 5px;
     gap: 10px;
+  }
+  .video {
+    width: 100%;
+    padding: 1px;
   }
 }
 @media (max-width: 768px) {
@@ -488,6 +493,7 @@ footer {
   }
   .bajada-landings-contactanos {
     font-size: 13px;
+    padding: 10px;
   }
   .formulario-contactanos {
     font-size: 13px;
@@ -503,4 +509,63 @@ footer {
     padding: 5px;
     gap: 5px;
   }
-} /*# sourceMappingURL=style.css.map */
+  .video {
+    width: 100%;
+    padding: 1px;
+  }
+}
+@media (max-width: 420px) {
+  .titulo-linea-1 {
+    font-size: 15px;
+  }
+  .titulo2 {
+    font-size: 15px;
+  }
+  .titulo3 {
+    font-size: 15px;
+  }
+  .tituloContactanos {
+    font-size: 15px;
+  }
+  .tituloNosotros {
+    font-size: 15px;
+  }
+  .navegador-links {
+    font-size: 14px;
+  }
+  .navegador-links2 {
+    font-size: 14px;
+  }
+  .bajada {
+    font-size: 13px;
+  }
+  .bajada-landingsNosotros {
+    font-size: 15px;
+  }
+  .bajada-landings-enviosypedidos {
+    font-size: 13px;
+  }
+  .bajada-landings-contactanos {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .formulario-contactanos {
+    font-size: 11px;
+  }
+  .footer {
+    font-size: 13px;
+  }
+  .footerText {
+    font-size: 13px;
+  }
+  .galeria {
+    width: 100%;
+    padding: 5px;
+    gap: 5px;
+  }
+  .video {
+    width: 100%;
+    padding: 1px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
