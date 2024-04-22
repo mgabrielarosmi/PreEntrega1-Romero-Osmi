@@ -33,12 +33,27 @@ footer {
 .titulo-linea-1 {
   width: 100%;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #f6d6d6;
   text-align: center;
   font-weight: lighter;
   font-family: "Montserrat";
   text-shadow: #474747 2px 2px 2px, 2px 2px 5px rgba(206, 89, 55, 0);
+}
+@media (max-width: 1024px) {
+  .titulo-linea-1 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .titulo-linea-1 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .titulo-linea-1 {
+    font-size: 15px;
+  }
 }
 
 .navegador {
@@ -57,6 +72,21 @@ footer {
   display: flex;
   justify-content: left;
   padding: 5px;
+}
+@media (max-width: 1024px) {
+  .navegador-links {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .navegador-links {
+    font-size: 14px;
+  }
+}
+@media (max-width: 420px) {
+  .navegador-links {
+    font-size: 14px;
+  }
 }
 
 .navegador-link {
@@ -104,6 +134,31 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 1024px) {
+  .navegador-links2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .navegador-links2 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 420px) {
+  .navegador-links2 {
+    font-size: 14px;
+  }
+}
+
+.navegador-link {
+  padding: 1px;
+}
+.navegador-link a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: gray;
+}
 
 .imagenfondo {
   background-image: url(https://m.media-amazon.com/images/I/911AbMaFIoL.jpg);
@@ -124,17 +179,41 @@ footer {
   background-color: #f6d6d6;
   padding: 5px;
 }
+@media (max-width: 1024px) {
+  .bajada {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .bajada {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .bajada {
+    font-size: 13px;
+  }
+}
 
 .imagenes {
   display: flex;
   justify-content: center;
   padding: 0;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 50px;
+  padding: 20px;
 }
 .imagenes div {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+@media (max-width: 420px) {
+  .imagenes {
+    width: 100%;
+    height: auto;
+    padding: 2px 5px 2px 5px;
+    gap: 1px;
+  }
 }
 
 .novedadesybebe {
@@ -144,15 +223,42 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .novedadesybebe {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 420px) {
+  .novedadesybebe {
+    width: 100%;
+    height: auto;
+  }
+}
 
 .titulo3 {
   color: gray;
   font-size: 18px;
   text-align: center;
   font-family: Montserrat;
-  margin: 10px;
+  margin: 8px;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 1024px) {
+  .titulo3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .titulo3 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .titulo3 {
+    font-size: 13px;
+  }
 }
 
 .footer {
@@ -162,6 +268,21 @@ footer {
   font-family: Montserrat;
   background-color: #f6d6d6;
   padding: 25px 10px 5px 10px;
+}
+@media (max-width: 1024px) {
+  .footer {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .footer {
+    font-size: 13px;
+  }
 }
 
 .formFooter {
@@ -204,6 +325,21 @@ footer {
 .footerText {
   font-size: 15px;
 }
+@media (max-width: 1024px) {
+  .footerText {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .footerText {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .footerText {
+    font-size: 13px;
+  }
+}
 
 .contenidoContactanos {
   display: block;
@@ -217,6 +353,21 @@ footer {
   text-align: center;
   font-family: Montserrat;
 }
+@media (max-width: 1024px) {
+  .tituloContactanos {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .tituloContactanos {
+    font-size: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .tituloContactanos {
+    font-size: 14px;
+  }
+}
 
 .bajada-landings-contactanos {
   color: #c69c6d;
@@ -226,6 +377,24 @@ footer {
   padding: 10px 200px 30px 200px;
   text-align: center;
   max-width: 100%;
+}
+@media (max-width: 1024px) {
+  .bajada-landings-contactanos {
+    font-size: 14px;
+    padding: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .bajada-landings-contactanos {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .bajada-landings-contactanos {
+    font-size: 15px;
+    padding: 10px;
+  }
 }
 
 /* formulario contactanos*/
@@ -250,6 +419,21 @@ footer {
   border-radius: 5px;
   background-color: transparent;
   border: 1px solid white;
+}
+@media (max-width: 1024px) {
+  .formulario-contactanos {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .formulario-contactanos {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .formulario-contactanos {
+    font-size: 11px;
+  }
 }
 
 .formulario-contactanos-grupo {
@@ -315,6 +499,31 @@ footer {
   text-align: center;
   font-family: Montserrat;
 }
+@media (max-width: 1024px) {
+  .tituloNosotros {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .tituloNosotros {
+    font-size: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .tituloNosotros {
+    font-size: 15px;
+  }
+}
+
+.navegador-link {
+  padding: 1px;
+}
+.navegador-link a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: gray;
+}
 
 .bajada-landingsNosotros {
   color: #c69c6d;
@@ -323,6 +532,31 @@ footer {
   background-color: white;
   text-align: center;
   padding: 2px;
+}
+@media (max-width: 1024px) {
+  .bajada-landingsNosotros {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .bajada-landingsNosotros {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .bajada-landingsNosotros {
+    font-size: 15px;
+  }
+}
+
+.navegador-link {
+  padding: 1px;
+}
+.navegador-link a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: gray;
 }
 
 .video-container {
@@ -337,6 +571,34 @@ footer {
 .video {
   width: 40%;
   height: 100%;
+}
+@media (max-width: 1024px) {
+  .video {
+    width: 100%;
+    padding: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .video {
+    width: 100%;
+    padding: 1px;
+  }
+}
+@media (max-width: 420px) {
+  .video {
+    width: 100%;
+    padding: 1px;
+  }
+}
+
+.navegador-link {
+  padding: 1px;
+}
+.navegador-link a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: gray;
 }
 
 .galeria {
@@ -354,6 +616,27 @@ footer {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+@media (max-width: 1024px) {
+  .galeria {
+    width: 100%;
+    padding: 5px;
+    gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .galeria {
+    width: 100%;
+    padding: 5px;
+    gap: 5px;
+  }
+}
+@media (max-width: 420px) {
+  .galeria {
+    width: 100%;
+    padding: 5px;
+    gap: 5px;
+  }
 }
 
 .img1 {
@@ -380,13 +663,6 @@ footer {
   grid-area: img6;
 }
 
-.titulo2 {
-  color: gray;
-  font-size: 18px;
-  text-align: center;
-  font-family: Montserrat;
-}
-
 .bajada-landings-enviosypedidos {
   font-size: 18px;
   font-family: Montserrat;
@@ -399,11 +675,44 @@ footer {
   max-width: 100%;
   color: #c69c6d;
 }
+@media (max-width: 1024px) {
+  .bajada-landings-enviosypedidos {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .bajada-landings-enviosypedidos {
+    font-size: 13px;
+    padding: 5px;
+  }
+}
+@media (max-width: 420px) {
+  .bajada-landings-enviosypedidos {
+    font-size: 13px;
+    padding: 1px;
+  }
+}
 
 .parrafos-envios {
   margin-top: 15px;
   margin-bottom: 15px;
   max-width: 100%;
+}
+@media (max-width: 1024px) {
+  .parrafos-envios {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .parrafos-envios {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .parrafos-envios {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 1024px) {

@@ -4,10 +4,17 @@
     justify-content: center;
     padding: 0;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 50px;
+    padding: 20px;
     div {
         margin-top: 30px;
         margin-bottom: 30px;
+      }
+      @media (max-width: 420px){
+        width: 100%;
+        height: auto;
+        padding: 2px 5px 2px 5px;
+        gap: 1px;
       }
   }
   
@@ -17,6 +24,14 @@
     background-color: white;
     display: flex;
     justify-content: center;
+  @media (max-width: 768px){
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 420px){
+    width: 100%;
+    height: auto;
+  }
   }
   
   .titulo3 {
@@ -24,7 +39,16 @@
     font-size: 18px;
     text-align: center;
     font-family: Montserrat;
-    margin: 10px;
+    margin: 8px;
     display: flex;
     justify-content: center;
+    @media (max-width: 1024px){
+      font-size: 15px;
+    }
+@media (max-width: 768px){
+font-size: 13px;
+}
+@media (max-width: 420px){
+font-size: 13px;
+}
   }

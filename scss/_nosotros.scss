@@ -10,6 +10,25 @@
     font-size: 20px;
     text-align: center;
     font-family: Montserrat;
+    @media (max-width: 1024px){
+      font-size: 16px;
+  }
+  @media (max-width: 768px){
+    font-size: 15px;
+  }
+  @media (max-width: 420px){
+      font-size: 15px;
+    }
+  }
+  
+  .navegador-link {
+    padding: 1px;
+    a {
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: gray;
+      }
   }
   
   .bajada-landingsNosotros {
@@ -19,6 +38,25 @@
     background-color: white;
     text-align: center;
     padding: 2px;
+    @media (max-width: 1024px){
+      font-size: 14px;
+  }
+  @media (max-width: 768px){
+    font-size: 13px;
+  }
+  @media (max-width: 420px){
+      font-size: 15px;
+    }
+  }
+  
+  .navegador-link {
+    padding: 1px;
+    a {
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: gray;
+      }
   }
   
   .video-container {
@@ -33,6 +71,28 @@
   .video {
     width: 40%;
     height: 100%;
+    @media (max-width: 1024px){
+      width: 100%;
+      padding: 1px;
+    }
+  @media (max-width: 768px){
+    width: 100%;
+    padding: 1px;
+  }
+  @media (max-width: 420px){
+    width: 100%;
+    padding: 1px;
+  }
+  }
+  
+  .navegador-link {
+    padding: 1px;
+    a {
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: gray;
+      }
   }
   
   .galeria {
@@ -49,7 +109,23 @@
         height: 100%;
         -o-object-fit: cover;
            object-fit: cover;
-      }    
+      }   
+      @media (max-width: 1024px){
+        width: 100%;
+        padding: 5px;
+        gap: 10px;
+      }
+    @media (max-width: 768px){
+      width: 100%;
+      padding: 5px;
+      gap: 5px;
+    }
+    @media (max-width: 420px){
+      width: 100%;
+      padding: 5px;
+      gap: 5px;
+    }
+       
   }
 
   .img1 {

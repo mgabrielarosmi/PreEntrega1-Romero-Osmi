@@ -9,10 +9,33 @@
     margin-bottom: 30px;
     max-width: 100%;
     color: #c69c6d;
+    @media (max-width: 1024px){
+      font-size: 14px;
+      padding: 5px;
+    }
+@media (max-width: 768px){
+font-size: 13px;
+padding: 5px;
+
+}
+@media (max-width: 420px){
+font-size: 13px;
+padding: 1px;
+
+}
   }
   
   .parrafos-envios {
     margin-top: 15px;
     margin-bottom: 15px;
     max-width: 100%;
+    @media (max-width: 1024px){
+      font-size: 14px;
+    }
+@media (max-width: 768px){
+font-size: 13px;
+}
+@media (max-width: 420px){
+font-size: 13px;
+}
   }

@@ -5,12 +5,22 @@
     font-family: Montserrat;
     background-color: #f6d6d6;
     padding: 25px 10px 5px 10px;
+    @media (max-width: 1024px){
+      font-size: 14px;
+    }
+@media (max-width: 768px){
+font-size: 13px;
+}
+@media (max-width: 420px){
+font-size: 13px;
+}
   }
   .formFooter {
     width: 390px;
     margin: 10px auto 10px auto;
     padding: 10px 10px 10px 10px;
     font-family: "Montserrat";
+    
   }
   .formFooter-grupo {
     display: flex;
@@ -41,6 +51,15 @@
   }
   .footerText {
     font-size: 15px;
+    @media (max-width: 1024px){
+      font-size: 14px;
+    }
+@media (max-width: 768px){
+font-size: 13px;
+}
+@media (max-width: 420px){
+font-size: 13px;
+}
   }
   
   

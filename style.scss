@@ -27,13 +27,9 @@ footer {
 @import "./scss/contactanos";
 @import "./scss/formulariocontactanos";
 @import "./scss/nosotros";
-.titulo2 {
-  color: gray;
-  font-size: 18px;
-  text-align: center;
-  font-family: Montserrat;
-}
 @import "./scss/enviosypedidos";
+
+
 
 
 
@@ -86,7 +82,7 @@ footer {
     padding: 5px;
     gap: 10px;
   }
-  .video {
+    .video {
     width: 100%;
     padding: 1px;
   }
