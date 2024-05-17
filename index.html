@@ -7,6 +7,7 @@
     <meta name="description" content="Encuentra lazos encantadores y delicados para niñas y bebés en nuestra tienda en línea. Desde estilos clásicos hasta diseños modernos, tenemos el complemento perfecto 
     para cada ocasión. ¡Explora nuestra colección ahora!">
     <link rel="shortcut icon" href="./img/ARDILLITAS PNG (1).png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="./style.css">
     <!--fin CSS-->
@@ -27,11 +28,11 @@
             <li class="navegador-link"><a href="./nosotros.html">Nosotros</a></li>
         </ul>
         <div class="redes1">
-            <a target="_blank" href="https://www.instagram.com/ardillitas.cl/"><img class="redes" src="./img/instagram.png"
+            <a target="_blank" href="https://www.instagram.com/ardillitas.cl/"><img class="redes" src="./img/ins.png"
                     alt="Instagram"></a>
         </div>
     </nav>
-    <div class="logoCentral" style="text-align: center;">
+    <div data-aos="zoom-in" class="logoCentral" style="text-align: center;">
         <a href="./index.html"><img class="logo" src="./img/ARDILLITAS TEXTO.png" alt="Ardillitas Shop"></a>
     </div>
     <ul class="navegador-links2">
@@ -51,12 +52,16 @@
         <section class="imagenes">
             <div>
                 <h4 class="titulo3">Novedades</h4>
-                <img class="novedadesybebe" src="./img/novedades.jpg" alt="Novedades">
+                <img data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="novedadesybebe" src="./img/novedades.jpg" alt="Novedades">
                 
             </div>
             <div>
                 <h4 class="titulo3">Colección de bebes</h4>
-                <img class="novedadesybebe" src="./img/colecciondebebes.jpg" alt="Coleccion de bebes">
+                <img data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="novedadesybebe" src="./img/colecciondebebes.jpg" alt="Coleccion de bebes">
                 
             </div>
         </section>
@@ -85,7 +90,10 @@
     </footer>
     <!--footer-->
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

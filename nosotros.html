@@ -7,6 +7,7 @@
     <meta name="description" content="¿Curioso acerca de quiénes somos y qué nos impulsa? En nuestra página 'Nosotros', te invitamos a conocer nuestra historia, nuestros valores y nuestro compromiso con la excelencia. Descubre cómo nos esforzamos 
     por superar las expectativas de nuestros clientes y cómo podemos hacer tu experiencia de compra más especial.">
     <link rel="shortcut icon" href="./img/ARDILLITAS PNG (1).png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="./style.css">
     <!--fin CSS-->
@@ -14,7 +15,6 @@
 </head>
 
 <body>
-
 
     <!--Navegacion-->
     <div class="textoHeader">
@@ -26,7 +26,7 @@
             <li class="navegador-link"><a href="./nosotros.html">Nosotros</a></li>
         </ul>
         <div class="redes1">
-            <a href="https://www.instagram.com/ardillitas.cl/"><img class="redes" src="./img/instagram.png"
+            <a target="_blank" href="https://www.instagram.com/ardillitas.cl/"><img class="redes" src="./img/ins.png"
                     alt="Instagram"></a>
         </div>
     </nav>
@@ -38,7 +38,6 @@
         <li class="navegador-link"><a href="./enviosypedidos.html">Envios y pedidos</a></li>
     </ul>
     <!--Fin Navegacion-->
-
 
     <!--Header-->
     <header>
@@ -54,7 +53,8 @@
             <h2 class="tituloNosotros">Nosotros</h2>
             <p class="bajada-landingsNosotros">Conoce nuestro proceso de elaboración</p>
             <div class="video-container">
-                <iframe class="video" src="https://www.youtube.com/embed/hQom0bpneZA?si=ifvzV2JVaQ8FnwLI"
+                <iframe data-aos="fade-up"
+                data-aos-duration="3000" class="video" src="https://www.youtube.com/embed/hQom0bpneZA?si=ifvzV2JVaQ8FnwLI"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
@@ -63,17 +63,21 @@
         <h2 class="bajada-landingsNosotros">Conoce nuestros productos</h2>
         <section class="galeria">
             <img class="img1" src="./img/galeria/lazos (1).jpg" alt="">
-            <img class="img2" src="./img/galeria/lazos (2).jpg" alt="">
-            <img class="img3" src="./img/galeria/lazos (3).jpg" alt="">
-            <img class="img4" src="./img/galeria/lazos (4).jpg" alt="">
+            <img data-aos="zoom-in-left"  class="img2" src="./img/galeria/lazos (2).jpg" alt="">
+            <img  class="img3" src="./img/galeria/lazos (3).jpg" alt="">
+            <img data-aos="zoom-in-right" class="img4" src="./img/galeria/lazos (4).jpg" alt="">
             <img class="img5" src="./img/galeria/lazos (5).jpg" alt="">
-            <img class="img6" src="./img/galeria/lazos (6).jpg" alt="">
+            <img  class="img6" src="./img/galeria/lazos (6).jpg" alt="">
 
         </section>
 
 
     </main>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
@@ -95,7 +99,6 @@
 
 </footer>
 <!--footer-->
-
 </body>
 
 </html>

@@ -7,6 +7,7 @@
     <meta name="description" content="¿Tienes alguna pregunta o comentario sobre nuestros lazos para niñas y bebés? ¡Estamos aquí para ayudarte! Contacta con nuestro equipo amigable y profesional 
     hoy mismo para obtener asistencia personalizada y resolver tus dudas.">
     <link rel="shortcut icon" href="./img/ARDILLITAS PNG (1).png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="./style.css">
     <!--fin CSS-->
@@ -26,7 +27,7 @@
             <li class="navegador-link"><a href="./nosotros.html">Nosotros</a></li>
         </ul>
         <div class="redes1">
-            <a href="https://www.instagram.com/ardillitas.cl/"><img class="redes" src="./img/instagram.png"
+            <a target="_blank" href="https://www.instagram.com/ardillitas.cl/"><img class="redes" src="./img/ins.png"
                     alt="Instagram"></a>
         </div>
     </nav>
@@ -62,7 +63,9 @@
 
 
 
-        <form class="formulario-contactanos">
+        <form data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="900" class="formulario-contactanos">
             <div class="formulario-contactanos-grupo">
                 <label class="formulario-contactanos-grupo-label" for="nombre-apellido">Nombre y apellido</label>
                 <input class="formulario-contactanos-grupo-input" type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Ingrese su nombre y apellido">
@@ -109,7 +112,10 @@
 <!--footer-->
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
